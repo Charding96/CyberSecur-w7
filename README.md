@@ -12,13 +12,14 @@ Time spent: 10 hours spent in total
     - Tested in version:4.2
     - Fixed in version:4.2.1
   - [x] GIF Walkthrough: <img src="https://github.com/Charding96/CyberSecur-w7/blob/master/Assignment_1XSS.gif?raw=true" width="800">
-  - [x] Steps to recreate: <br/>
-        *  Login as Guest
-        *  Go on any post down to comment section
-        *  post <a title='x onmouseover=alert(unescape(/hello%20world/.source))      style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
-        - Beware the "A" needs to be 64kbs and over, in order to work. 
-        - Need admin comment approval.
-        
+  - [x] Steps to recreate: 
+    -  Login as Guest
+    - Go on any post down to comment section
+    - post 
+    <a title='x onmouseover=alert(2)style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
+     -  Beware the "A" needs to be 64kbs and over, in order to work. 
+     -  Need admin comment approval.
+          
 2. (Required) WordPress 4.1-4.2.1 - Unauthenticated Genericons Cross-Site Scripting (XSS)
   - [x] Summary: 
     - Vulnerability types:XSS
